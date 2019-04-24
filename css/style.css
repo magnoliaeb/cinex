@@ -1,0 +1,219 @@
+li {
+    list-style-type: none;
+}
+
+
+.content blockquote.no-border {
+    border: 0;
+}
+
+
+.just-content-center {
+    justify-content: center;
+}
+.just-content-bet {
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+
+
+
+.is-warning {
+    background: #FF6100 !important;
+}
+
+.has-text-warning {
+    color: #FF6100 !important;
+}
+
+
+/*=============================================
+=            HEADER            =
+=============================================*/
+
+.hero-header {
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.border {
+    border: 2px solid ghostwhite;
+}
+.is-active-boder {
+    border-color: #454955 !important;
+}
+
+
+
+
+.image img {
+    height: 100% !important;
+    object-fit: cover;
+    /* object-position: center top; */
+}
+
+.hero-overline {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.open .card {
+    border: none;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.open .card-content {
+    border: none;
+    background: transparent !important;
+
+}
+
+
+/* poster */
+
+.poster-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.play-movie {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-movie-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-fullheight {
+    height: 100%;
+}
+
+
+
+/*=============================================
+=            DESCARGAR            =
+=============================================*/
+
+.public {
+    background-image: url('../img/bg-light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+
+}
+
+
+/* theater */
+
+.theater .card {
+    border: none;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.theater .card-content {
+    border: none;
+    background: transparent !important;
+
+}
+
+
+
+
+/* left poster */
+/* .right-poster {
+    background: #121212;
+    padding: 0;
+} */
+.right-poster .section{
+    padding: 10px 20px;
+}
+.right-poster .media + .media {
+    border-top: none;
+    margin-top: 0.3rem;
+}
+.right-poster .box:not(:last-child){
+    margin-bottom: 0;
+}
+
+
+
+.numbr-rounded {
+    height: 40px;
+    background: grey;
+    border: none;
+    width: 40px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+
+
+/* trailer */
+
+.trailer {
+    background-image: url('../img/bg-trailer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.trailer iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.trailer-overline {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.trailer .card {
+    border: none;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.trailer .card-content {
+    border: none;
+    background: transparent !important;
+
+}
+
+.is-active-trailer {
+    border: 5px solid white;
+}
+
+.trailer .image img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: center top;
+}
